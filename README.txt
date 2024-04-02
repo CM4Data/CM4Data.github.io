@@ -1,3 +1,24 @@
+CM4Data's Website Portfolio
+
+This is based off Strata by HTML5 Up (see notes below) which I customized and edited for 
+my webpage portfolio to display my projects and experience. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+____________________________________
 Strata by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
