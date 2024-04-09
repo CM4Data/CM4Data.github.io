@@ -2642,6 +2642,30 @@ input, select, textarea {
 				background-color: #a7c3ff;
 				border-color: #a7c3ff;
 			}
+		.back-to-top {
+			position: fixed;
+			right: 2rem;
+			bottom: 2rem;
+			border-radius: 100%;
+			background: #a7c3ff;
+			padding: 0.5rem;
+			border: none;
+			cursor: pointer;
+			opacity: 100%;
+			transition: opacity 0.5s;
+			}
+			.back-to-top:hover {
+				opacity: 60%;
+			  }
+			.hidden {
+				display: none;
+			}
+			.back-to-top-icon {
+				width: 1rem;
+				height: 1rem;
+				color:#ffffff;
+			}
+		
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
