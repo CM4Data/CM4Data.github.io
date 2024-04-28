@@ -134,5 +134,31 @@
 			});
 		  };
 		  backToTopButton.addEventListener("click", goToTop)
+	
+
+	/*//Button Back Home.*/
+		const showOnPx1 = 100;
+		const goHomeButton = document.querySelector(".go-home")
+
+		const scrollContainer1 = () => {
+			return document.documentElement || document.body;
+		};
+		
+		document.addEventListener("scroll", () => {
+		if (scrollContainer1().scrollTop > showOnPx1) {
+			goHomeButton.classList.remove("hidden")
+		} else {
+			goHomeButton.classList.add("hidden")
+		}
+		})
+		
+		const goHome = () => {
+			document.body.scrollIntoView({
+				behavior: "smooth",
+			});
+			console.log("click")
+			window.location.assign('/index.html');      
+		}
+			goHomeButton.addEventListener("click", goHome)
 
 })(jQuery);
