@@ -2647,9 +2647,9 @@ input, select, textarea {
 		.back-to-top {
 			position: fixed;
 			right: 2rem;
-			bottom: 2rem;
+			bottom: 7rem;
 			border-radius: 100%;
-			background: #90b0f7;
+			background: #74a0ff;
 			padding: 0.5rem;
 			border: none;
 			cursor: pointer;
@@ -2664,16 +2664,16 @@ input, select, textarea {
 				display: none;
 			}
 			.back-to-top-icon {
-				width: 1rem;
-				height: 1rem;
+				width: 3rem;
+				height: 3rem;
 				color:#ffffff;
 			}
 		.go-home {
 			position: fixed;
-			right: 4.2rem;
+			right: 2rem;
 			bottom: 2rem;
 			border-radius: 100%;
-			background: #a7c3ff;
+			background: #2f519b;
 			padding: 0.5rem;
 			border: none;
 			cursor: pointer;
@@ -2688,8 +2688,8 @@ input, select, textarea {
 				display: none;
 			}
 			.go-home-icon {
-				width: 1rem;
-				height: 1rem;
+				width: 3rem;
+				height: 3rem;
 				color:#ffffff;
 			}
 
