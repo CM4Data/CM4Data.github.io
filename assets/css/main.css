@@ -2647,7 +2647,7 @@ input, select, textarea {
 		.back-to-top {
 			position: fixed;
 			right: 2rem;
-			bottom: 6rem;
+			bottom: 5rem;
 			border-radius: 100%;
 			background: #9ba2fd;
 			padding: 0.5rem;
@@ -2664,8 +2664,8 @@ input, select, textarea {
 				display: none;
 			}
 			.back-to-top-icon {
-				width: 1.7rem;
-				height: 1.7rem;
+				width: 1.5rem;
+				height: 1.5rem;
 				color:#ffffff;
 			}
 		.go-home {
@@ -2673,7 +2673,7 @@ input, select, textarea {
 			right: 2rem;
 			bottom: 2rem;
 			border-radius: 100%;
-			background: #0f1680e7;
+			background: #000930e7;
 			padding: 0.5rem;
 			border: none;
 			cursor: pointer;
@@ -2688,8 +2688,8 @@ input, select, textarea {
 				display: none;
 			}
 			.go-home-icon {
-				width: 1.7rem;
-				height: 1.7rem;
+				width: 1.5rem;
+				height: 1.5rem;
 				color:#ffffff;
 			}
 
