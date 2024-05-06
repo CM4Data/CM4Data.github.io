@@ -2755,7 +2755,7 @@ input, select, textarea {
 		color: rgb(255, 255, 255);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 4em 4em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -2797,6 +2797,28 @@ input, select, textarea {
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
+
+		#header .header--name {
+			font-weight: bold;
+			color: white
+		}
+
+		#header .header--title {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 1.35em;
+			line-height: 1.75em;
+			margin: 0;
+		}
+		
+		#header .header--description {
+			font-weight: bold;
+		}
+		
+		#header .header--objective {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+		
 
 		.header-indent {
 			padding-left: 20px;
